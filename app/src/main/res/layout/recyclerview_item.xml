@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/word_title"
+            android:layout_width="323dp"
+            android:layout_height="35dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:background="@color/white"
+            android:layout_marginStart="9dp"
+            android:layout_width="31dp"
+            android:layout_height="28dp"
+            android:contentDescription="TODO"
+            android:src="@android:drawable/ic_menu_delete" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Content" />
+
+        <TextView
+            android:id="@+id/tvDue"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:text="Content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725274429532",
+    "project_id": "auth-a65d1",
+    "storage_bucket": "auth-a65d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725274429532:android:3cc69c16ba80a425b8be99",
+        "android_client_info": {
+          "package_name": "com.example.roomwithaview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725274429532-vmrh71g7h8vaj3njm5fda6581chromor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2FdBQxzAhrSG9Dw5NYSK07gqU8X4b7QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725274429532-vmrh71g7h8vaj3njm5fda6581chromor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

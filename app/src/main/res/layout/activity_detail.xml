@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50sp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/todo_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_todo_item"
+        android:theme="@style/Theme.App.Base"
+        android:inputType="textAutoComplete"
+        android:minHeight="@dimen/min_height"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/todo_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/content_todo_item"
+        android:theme="@style/Theme.App.Base"
+        android:inputType="textMultiLine"
+        android:minHeight="@dimen/min_height"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/todo_item_due"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/due_todo_item"
+            android:inputType="textAutoComplete"
+            android:minHeight="@dimen/min_height"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/dateTimeUpdateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/design_default_color_primary"
+            android:text="Date / Time"
+            android:textAlignment="center"
+            android:textColor="@color/buttonLabel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/big_padding"
+            android:background="@color/design_default_color_primary"
+            android:text="Save Update"
+            android:textColor="@color/buttonLabel" />
+
+        <CheckBox
+            android:id="@+id/checkBoxDetail"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:buttonTint="#2081E6"
+            android:text="@string/complete_checkbox" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
